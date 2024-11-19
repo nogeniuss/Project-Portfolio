@@ -1,0 +1,18 @@
+vou seguir como inspiração estes portfolio
+
+https://www.matheusgalhani.com.br/
+
+
+oque meu portfolio ira ter:
+
+- modo claro / escuro.
+- escolha de linguagem de escrita na pagina.
+- cabeçalho.
+ - Sobre mim.x
+ - Projetos.x
+ - Skills.x
+- precisa ter uma imagem / objeto em movimento no fundo.
+- nos projetos, de alguma maneira, torna-los executaveis.
+
+- nas skils, fazer um circulo com a pontuação de dominio que tenho e um pouco de texto, e isso so vai
+aparecer quando coloca o mouse em cima 'hovered'

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Círculo com Borda Dinâmica</title>
+</head>
+<body>
+  <style>
+
+  .progress-bar {
+  width: 200px;
+  height: 20px;
+  background-color: #eee;
+  border-radius: 5px;
+}
+
+.progress {
+  height: 100%;
+  background-color: #4CAF50;
+  border-radius: 5px;
+}
+
+.percentage {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+  </style>
+  <div class="progress-bar">
+    <div class="progress" style="width: 70%"></div>
+    <span class="percentage">70%</span>
+  </div>
+  
+  <script>
+// Função para atualizar a barra de progresso
+function updateProgressBar(percentage) {
+  const progressBar = document.querySelector('.progress');
+  progressBar.style.width = percentage + '%';
+
+  const percentageText = document.querySelector('.percentage');
+  percentageText.textContent = percentage + '%';
+}
+
+// Chamando a função com o valor desejado (exemplo: 70%)
+updateProgressBar(70);
+
+  </script>
+</body>
+</html>

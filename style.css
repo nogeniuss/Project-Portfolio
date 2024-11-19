@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 10px;
+    padding: 10px;
+    align-items: center;
+    align-content: center;
+    text-align: left;
+    align-self: center;
+    background-color: white;
+}
+
+header {
+    background-color: lightgray;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+
+
+.skills-list li {
+    text-align: center;
+    margin: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-style: normal;
+}
+ol{
+    list-style-type: none;  
+    text-align: left;
+    align-items: left;
+}
+li{
+    text-align: left;
+
+}
+.div_skills{
+    width: 25%;
+    float: left;
+}
+p{
+    text-align: center;
+}
+
+.circle img{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    border: 1px;
+}
+
+/*Indicador javascript*/
+.progress-bar-js, .progress-bar-html , .progress-bar-css, .progress-bar-node, .progress-bar-docker, .progress-bar-git ,
+.progress-bar-github , .progress-bar-py , .progress-bar-linux , .progress-bar-sql , .progress-bar-supa, .progress-bar-bubble {
+    width: 150px;
+    height: 20px;
+    background-color: #eee;
+    border-radius: 5px;
+  }
+  
+  .progress-js, .progress-html , .progress-css, .progress-node, .progress-docker, .progress-git ,
+.progress-github , .progress-py , .progress-linux , .progress-sql , .progress-supa, .progress-bubble {
+    height: 100%;
+    background-color: #4CAF50;
+    border-radius: 5px;
+  }
+  
+  .percentage-js , .percentage-html , .percentage-css , .percentage-node , .percentage-docker, .percentage-git , .percentage-github,
+  .percentage-py , .percentage-linux , .percentage-sql , .percentage-supa , .percentage-bubble{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+  }
+.orientatio{
+    float: left;
+    padding-left: 10%;
+    
+}
+
+#sobre{
+
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black;
+    float: left;
+    text-align: left;
+}
